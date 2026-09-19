@@ -1,1 +1,28 @@
-*{box-sizing:border-box}body{margin:0;background:#070b14;color:#eef5ff;font:16px Arial;line-height:1.6}a{color:#55c8ff;text-decoration:none}.wrap{max-width:1050px;margin:auto;padding:0 22px}nav{padding:24px 0;border-bottom:1px solid #20304a;display:flex;justify-content:space-between}.logo{font-size:25px;font-weight:bold}.logo span{color:#19a9ff}.hero{text-align:center;padding:75px 0}.badge{color:#63c9ff;border:1px solid #245477;padding:7px 14px;border-radius:30px;display:inline-block}h1{font-size:58px;margin:20px 0}.hero p{color:#a9b6ca;font-size:19px}.price{font-size:38px;font-weight:bold;margin:25px}.cta{display:inline-block;padding:15px 25px;border-radius:12px;background:#19bdf2;color:#03101a;font-weight:bold}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#101827;border:1px solid #20304a;border-radius:15px;padding:22px}.card p{color:#a9b6ca}section{padding:45px 0}h2{text-align:center;font-size:32px}.note{background:#101827;border:1px solid #20304a;border-radius:15px;padding:22px;color:#a9b6ca}footer{border-top:1px solid #20304a;padding:35px 0;color:#a9b6ca}@media(max-width:700px){h1{font-size:42px}.grid{grid-template-columns:1fr}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#070b14;color:#eef5ff;font:16px Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:#55c8ff;text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1100px;margin:auto;padding:0 22px}
+nav{padding:24px 0;border-bottom:1px solid #20304a;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:25px;font-weight:bold;letter-spacing:.4px}.logo span,h1 span{color:#19a9ff}
+.hero{text-align:center;padding:78px 0 65px}
+.badge{color:#63c9ff;border:1px solid #245477;padding:7px 14px;border-radius:30px;display:inline-block;font-size:13px;letter-spacing:.5px}
+h1{font-size:58px;margin:20px 0 12px}
+.hero p{max-width:760px;margin:0 auto;color:#a9b6ca;font-size:19px}
+.price{font-size:42px;font-weight:bold;margin:25px 0 8px}.price small{font-size:20px;color:#a9b6ca}
+.trial{display:inline-block;margin:8px 0 25px;padding:9px 16px;border:1px solid #355a78;border-radius:10px;background:#0d1726;color:#e8f6ff;font-weight:bold}
+.cta,.pay-btn,.secondary-cta{display:inline-block;padding:14px 24px;border-radius:12px;background:#19bdf2;color:#03101a;font-weight:bold;text-decoration:none}.cta:hover,.pay-btn:hover,.secondary-cta:hover{text-decoration:none;filter:brightness(1.08)}
+section{padding:48px 0}h2{text-align:center;font-size:32px;margin:0 0 25px}.center{text-align:center;color:#a9b6ca}
+.feature-list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.grid.three{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#101827;border:1px solid #20304a;border-radius:15px;padding:22px}.card h3{margin-top:0}.card p{color:#a9b6ca;margin-bottom:0}
+.payment-section{border-top:1px solid #17253a;border-bottom:1px solid #17253a}
+.payment-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:850px;margin:25px auto}
+.payment-card{background:#0d1522;border:1px solid #29405c;border-radius:18px;padding:28px;text-align:center}.payment-card h3{font-size:25px;margin:8px 0}.payment-card p{color:#a9b6ca}.payment-icon{font-size:30px}
+.pay-btn{margin-top:10px}.paypal-qr{display:block;width:min(320px,100%);height:auto;margin:18px auto 8px;border-radius:12px;background:#fff;padding:8px}.qr-note{color:#9eb0c7;font-size:13px}
+.trial-box{max-width:850px;margin:25px auto 0;padding:28px;border:1px solid #31516e;border-radius:18px;background:linear-gradient(135deg,#0d1725,#101a2b);text-align:center}.trial-box h3{font-size:24px;margin:0 0 8px}.trial-box p{color:#b5c2d4}.small{font-size:13px!important;margin-bottom:0}
+.secondary-cta{background:#eaf6ff;color:#062033}
+.note{background:#101827;border:1px solid #20304a;border-radius:15px;padding:22px;color:#a9b6ca}
+footer{border-top:1px solid #20304a;padding:35px 0;color:#a9b6ca;text-align:center}
+@media(max-width:800px){.feature-list,.grid.three,.payment-grid{grid-template-columns:1fr}h1{font-size:44px}.hero{padding-top:55px}.price{font-size:36px}}
